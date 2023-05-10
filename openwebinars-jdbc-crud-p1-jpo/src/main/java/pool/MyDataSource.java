@@ -1,4 +1,4 @@
-package com.openwebinars.jdbc.crud;
+package pool;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -13,7 +13,7 @@ public class MyDataSource {
 	private static HikariDataSource dataSource;
 	
 	static {
-		config.setJdbcUrl("jdbc:mysql://localhost/instituto");
+		config.setJdbcUrl("jdbc:mysql://localhost/empresa");
 		config.setUsername("root");
 		config.setPassword("");
 		config.addDataSourceProperty("maximumPoolSize", 1);
