@@ -22,8 +22,8 @@ import model.Empleado;
 public class App {
 	
 	public static void main(String[] args) {
-		
-		App.testDao();
+		System.out.println("Hola \n Final");
+		new Menu().init();
 		
 	}
 	
