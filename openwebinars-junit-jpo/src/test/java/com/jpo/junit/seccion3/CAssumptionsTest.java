@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assumptions.assumingThat;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledIfSystemProperty;
 
 public class CAssumptionsTest {
 
@@ -33,5 +34,6 @@ public class CAssumptionsTest {
 					
 				});
 	}
+	
 
 }
